@@ -1,0 +1,501 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav .navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #ED254E;
+}
+
+nav .navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav .navbar-brand a {
+  gap: 0;
+}
+
+nav .navbar-brand span {
+  color: #ED254E;
+}
+
+nav ul {
+  font-size: 16px;
+}
+
+.nav-item a {
+  display: flex;
+  gap: 0.5rem
+}
+
+.nav-item a:hover {
+  font-weight: 700;
+  color: #ED254E;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:active {
+  font-weight: 700;
+  color: #ED254E;
+}
+.nav-item img{
+  width: 30px;
+}
+
+.login-register {
+  gap: 1.3rem;
+}
+
+.login-register .nav-item a.nav-link {
+  border: 1px #000 solid;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+}
+
+.login-register .nav-item a.nav-link:hover {
+  background-color: #ED254E;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px #fff solid;
+}
+
+.login-register .nav-item a.nav-link:active {
+  background-color: #ED254E;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px #fff solid;
+}
+.dokter-user {
+    background-color: #011936;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .dokter-user .div {
+    background-color: #011936;
+    width: 1440px;
+    height: 790px;
+    position: relative;
+  }
+  
+  .dokter-user .image-placeholder {
+    position: absolute;
+    width: 660px;
+    height: 416px;
+    top: 204px;
+    left: 714px;
+  }
+  
+  .btn
+  {
+    background-color: #ed254e;
+    width: 194px;
+    height: 52px;
+    margin-left: 60px;
+    margin-bottom: 50%;
+  }
+  .dokter-user .user-card {
+    display: flex;
+    width: 394px;
+    align-items: center;
+    gap: 15px;
+    padding: 7px 0px;
+    position: absolute;
+    top: 304px;
+    left: 67px;
+  }
+  
+  .dokter-user .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .dokter-user .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .dokter-user .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17.6px;
+  }
+  
+  .dokter-user .span {
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17.6px;
+  }
+  
+  .dokter-user .details-wrapper {
+    width: 394px;
+    gap: 15px;
+    padding: 7px 0px;
+    position: absolute;
+    top: 375px;
+    left: 67px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dokter-user .div-wrapper {
+    width: 394px;
+    gap: 15px;
+    padding: 7px 0px;
+    position: absolute;
+    top: 446px;
+    left: 67px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dokter-user .ratings {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    top: 540px;
+    left: 308px;
+  }
+  
+  .dokter-user .stars {
+    position: relative;
+    width: 86px;
+    height: 14px;
+  }
+  
+  .dokter-user .star {
+    left: 1px;
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 0;
+  }
+  
+  .dokter-user .img {
+    left: 19px;
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 0;
+  }
+  
+  .dokter-user .star-2 {
+    left: 37px;
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 0;
+  }
+  
+  .dokter-user .star-3 {
+    left: 55px;
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 0;
+  }
+  
+  .dokter-user .overlap-group {
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 0;
+    left: 73px;
+    background-image: url(./img/star-5.svg);
+    background-size: 100% 100%;
+  }
+  
+  .dokter-user .subtract {
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dokter-user .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .text-wrapper-3 {
+    position: absolute;
+    top: 535px;
+    left: 67px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0.15px;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .text-wrapper-4 {
+    position: absolute;
+    top: 203px;
+    left: 64px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 44px;
+    letter-spacing: 0;
+    line-height: 56px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .back {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 135px;
+    left: 80px;
+  }
+  
+  
+  
+  .dokter-user .logo {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .dokter-user .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .dokter-user .brand-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .dokter-user .brand {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 26.4px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .text-wrapper-5 {
+    color: #011936;
+  }
+  
+  .dokter-user .text-wrapper-6 {
+    color: #ed254e;
+  }
+  
+  .dokter-user .list-menu {
+    display: flex;
+    width: 1139px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    position: relative;
+    margin-right: -2px;
+  }
+  
+  .dokter-user .menu {
+    display: flex;
+    width: 798px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .dokter-user .div-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .dokter-user .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .text-wrapper-8 {
+    position: relative;
+    width: 51px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #011936;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .dokter-user .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ed254e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #011936;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .user-card-2 {
+    width: 168px;
+    gap: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dokter-user .user-thumb {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    background-image: url(./img/user-thumb.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .dokter-user .category {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--subtitle-m-font-family);
+    font-weight: var(--subtitle-m-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--subtitle-m-font-size);
+    letter-spacing: var(--subtitle-m-letter-spacing);
+    line-height: var(--subtitle-m-line-height);
+    font-style: var(--subtitle-m-font-style);
+  }
+  
+  .dokter-user .arrows {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 75px;
+    position: absolute;
+    top: 159px;
+    left: 1258px;
+  }
+  
+  .dokter-user .preview {
+    position: absolute;
+    width: 97px;
+    height: 44px;
+    top: 110px;
+    left: 1273px;
+  }
+  
+  .dokter-user .text-wrapper-11 {
+    position: absolute;
+    top: 9px;
+    left: 44px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--cool-grey);
+    font-size: 24px;
+    letter-spacing: 0.15px;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .text-wrapper-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 44px;
+    white-space: nowrap;
+  }
+  
+  .dokter-user .category-2 {
+    position: absolute;
+    width: 348px;
+    top: 259px;
+    left: 67px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 27.5px;
+  }
+  

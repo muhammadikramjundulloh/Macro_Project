@@ -1,0 +1,437 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background:#011936;
+  }
+  
+  nav .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  nav {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #ED254E;
+  }
+  
+  nav .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  nav .navbar-brand a {
+    gap: 0;
+  }
+  
+  nav .navbar-brand span {
+    color: #ED254E;
+  }
+  
+  nav ul {
+    font-size: 16px;
+  }
+  
+  .nav-item a {
+    display: flex;
+    gap: 0.5rem
+  }
+  
+  .nav-item a:hover {
+    font-weight: 700;
+    color: #ED254E;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item a:active {
+    font-weight: 700;
+    color: #ED254E;
+  }
+  .nav-item img{
+    width: 30px;
+  }
+  
+  .login-register {
+    gap: 1.3rem;
+  }
+  
+  .login-register .nav-item a.nav-link {
+    border: 1px #000 solid;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+  }
+  
+  .login-register .nav-item a.nav-link:hover {
+    background-color: #ED254E;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px #fff solid;
+  }
+  
+  .login-register .nav-item a.nav-link:active {
+    background-color: #ED254E;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px #fff solid;
+  }
+
+
+.pengaturan-akun {
+    display: inline-flex;
+    flex-direction: column;
+    /* height: 800px; */
+    align-items: flex-start;
+    position: relative;
+    background-color: var(--defaultwhite);
+    width: 100%;
+  }
+  
+
+  
+  
+  .pengaturan-akun .section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+    align-items: center;
+    gap: 64px;
+    padding: 0px 80px;
+    position: relative;
+    background-color: #011936;
+  }
+  
+  .pengaturan-akun .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 45px 0px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .pengaturan-akun .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--defaultwhite);
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: var(--coolgray-20);
+  }
+  
+  .pengaturan-akun .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .description-top {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-6-font-style);
+  }
+  
+  .pengaturan-akun .frame {
+    display: flex;
+    width: 327px;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .frame-2 {
+    gap: 24px;
+    padding: 0px 48px 0px 0px;
+    margin-right: -17px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .user-thumb-2 {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    border-radius: 100px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .pengaturan-akun .frame-3 {
+    flex-direction: column;
+    gap: 8px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .button {
+    display: inline-flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 12px;
+    position: relative;
+    border: 2px solid;
+    border-color: var(--primary-60);
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .pengaturan-akun .icon-jam-icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+  }
+  
+  .pengaturan-akun .text-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .button-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-m-font-family);
+    font-weight: var(--button-m-font-weight);
+    color: var(--primary-60);
+    font-size: var(--button-m-font-size);
+    letter-spacing: var(--button-m-letter-spacing);
+    line-height: var(--button-m-line-height);
+    white-space: nowrap;
+    font-style: var(--button-m-font-style);
+  }
+  
+  .pengaturan-akun .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-m-font-family);
+    font-weight: var(--body-m-font-weight);
+    color: var(--primary-90);
+    font-size: var(--body-m-font-size);
+    letter-spacing: var(--body-m-letter-spacing);
+    line-height: var(--body-m-line-height);
+    white-space: nowrap;
+    font-style: var(--body-m-font-style);
+  }
+  
+  .pengaturan-akun .field {
+    display: flex;
+    flex-direction: column;
+    width: 616px;
+    align-items: flex-end;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+ 
+  
+  .pengaturan-akun .label-and-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .label {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-s-font-family);
+    font-weight: var(--body-s-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--body-s-font-size);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    font-style: var(--body-s-font-style);
+  }
+  
+  .pengaturan-akun .div-wrapper {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--coolgray-10);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--coolgray-30);
+  }
+  
+  .pengaturan-akun .text-2 {
+    position: relative;
+    flex: 1;
+    font-family: var(--body-m-font-family);
+    font-weight: var(--body-m-font-weight);
+    color: #000000;
+    font-size: var(--body-m-font-size);
+    letter-spacing: var(--body-m-letter-spacing);
+    line-height: var(--body-m-line-height);
+    font-style: var(--body-m-font-style);
+  }
+  
+  .pengaturan-akun .text-field-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .pengaturan-akun .description {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-XS-font-family);
+    font-weight: var(--body-XS-font-weight);
+    color: var(--coolgray-60);
+    font-size: var(--body-XS-font-size);
+    letter-spacing: var(--body-XS-letter-spacing);
+    line-height: var(--body-XS-line-height);
+    font-style: var(--body-XS-font-style);
+  }
+  
+  .pengaturan-akun .input {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-s-font-family);
+    font-weight: var(--body-s-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--body-s-font-size);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    font-style: var(--body-s-font-style);
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .pengaturan-akun .field-2 {
+    height: 48px;
+    padding: 12px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--coolgray-10);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--coolgray-30);
+    border: none;
+    flex: 1;
+    font-family: var(--body-m-font-family);
+    font-weight: var(--body-m-font-weight);
+    color: #000000;
+    font-size: var(--body-m-font-size);
+    letter-spacing: var(--body-m-letter-spacing);
+    line-height: var(--body-m-line-height);
+    font-style: var(--body-m-font-style);
+  }
+  
+ 
+  .text-field-2 .btn{
+   width: 120px;
+    flex: 0 0 auto;
+    background-color: #ed254e;
+    border-radius: 15px;
+    
+    box-sizing: border-box;
+  }
+  
+  .pengaturan-akun .button-text-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-m-font-family);
+    font-weight: var(--button-m-font-weight);
+    color: var(--defaultwhite);
+    font-size: var(--button-m-font-size);
+    letter-spacing: var(--button-m-letter-spacing);
+    line-height: var(--button-m-line-height);
+    white-space: nowrap;
+    font-style: var(--button-m-font-style);
+  }
+  
+  .fields-group {
+    display: flex; /* Menggunakan flexbox untuk mengatur elemen sejajar */
+    justify-content: space-between; /* Membuat jarak seimbang antara elemen-elemen */
+    width: 100%; /* Memastikan elemen tetap dalam 100% lebar container */
+}
+
+.fields-group div {
+    flex: 1; /* Membagi ruang secara merata antara kedua elemen div dalam fields-group */
+    margin-right: 10px; /* Menambahkan margin kanan untuk memberikan sedikit jarak antara elemen */
+}
+
+.fields-group div:last-child {
+    margin-right: 0; 
+}
+
+button
+{
+    border: #011936;
+}
+
+    

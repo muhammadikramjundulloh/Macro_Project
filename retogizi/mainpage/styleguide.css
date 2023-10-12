@@ -1,0 +1,17 @@
+
+:root {
+    --defaultwhite: rgba(255, 255, 255, 1);
+    --other-menu-m-font-family: "Roboto-Medium", Helvetica;
+    --other-menu-m-font-weight: 500;
+    --other-menu-m-font-size: 16px;
+    --other-menu-m-letter-spacing: 0px;
+    --other-menu-m-line-height: 100%;
+    --other-menu-m-font-style: normal;
+    --body-s-font-family: "Roboto-Regular", Helvetica;
+    --body-s-font-weight: 400;
+    --body-s-font-size: 14px;
+    --body-s-letter-spacing: 0px;
+    --body-s-line-height: 139.9999976158142%;
+    --body-s-font-style: normal;
+  }
+  
