@@ -30,32 +30,32 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav gap-2">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/mainpage/index.html">
+            <a class="nav-link" aria-current="page" href="#">
               <img src="./img/beranda.svg" alt="">Beranda</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/artikel/index.html">
+            <a class="nav-link" href="/retogizi/artikel/index.html">
               <img src="./img/artikel.svg" alt="">Artikel</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/kosnsutasi/index.html">
+            <a class="nav-link" href="/retogizi/kosnsutasi/index.html">
               <img src="./img/tanya-dokter.svg" alt="">Tanya Dokter</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/katering/index.html">
+            <a class="nav-link" href="/retogizi/katering/index.html">
               <img src="./img/katering.svg" alt="">Katering</a>
           </li>
 
           <div class="login-register d-flex">
             <li class="nav-item">
-              <a class="masuk nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/login s/index.html">Masuk</a>
+              <a class="masuk nav-link" href="/login s/index.html">Masuk</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/login/index.html">Daftar Sekarang</a>
+              <a class="nav-link" href="/login/index.html">Daftar Sekarang</a>
             </li>
           </div>
         </ul>
@@ -64,41 +64,60 @@
   </nav>
 
 
-<div class="page-content">
+  <div class="page-content">
     <div class="right-column">
       <div class="div">
-        <div class="top"><div class="secondary-headline">Daftar Akun</div></div>
+        <div class="top">
+          <div class="secondary-headline">Daftar Akun</div>
+        </div>
       </div>
       <div class="form-fields">
-        
         <div class="text-field-2">
-            <div class="div">
-                <div class="label">Email</div>
-                <input class="field" placeholder="Masukan Nama Depan" type="email"></input>
-              </div>
+          <div class="div">
+            <div class="label">Email</div>
+            <input id="emailInput" class="field" placeholder="Masukan Email" type="email"></input>
+          </div>
         </div>
         <div class="text-field-2">
           <div class="div">
             <div class="label">Password</div>
             <div class="div">
-                
-                <input class="field" placeholder="Masukan Nama Depan" type="password"></input>
-              </div>
+              <input id="passwordInput" class="field" placeholder="Masukan Password" type="password"></input>
+            </div>
           </div>
         </div>
         <div class="controls-with-label">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">ingatkan Saya</label>
+          <input type="checkbox" class="form-check-input" id="rememberMe">
+          <label class="form-check-label" for="rememberMe">Ingatkan Saya</label>
         </div>
         <div class="buttons-group">
-            <button type="submit" class="btn btn-primary"><a href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/mainpage/index.html">Masuk</a></button>
+          <button type="button" class="btn btn-primary" onclick="login()">Masuk</button>
         </div>
       </div>
       <img class="sep" src="img/sep.svg" />
-      
     </div>
     <img class="placeholder-picture" src="img/picture.png"></img>
   </div>
+  
+  <script>
+    function login() {
+      // Perform your login logic here (e.g., check email and password)
+      const email = document.getElementById("emailInput").value;
+      const password = document.getElementById("passwordInput").value;
+  
+      // Replace the following condition with your actual login logic
+      if (email === "ikramjundulloh@gmail.com" && password === "ikram123") {
+        // If login is successful, show an alert
+        alert("Login successful");
+        // Redirect to the "mainpage/index.html"
+        window.location.href = "/retogizi(user)/mainpage/index.html";
+      } else {
+        // If login fails, you can show an error message or take other actions
+        alert("Login failed. Please check your email and password.");
+      }
+    }
+  </script>
+  
 
   </body>
   </html>

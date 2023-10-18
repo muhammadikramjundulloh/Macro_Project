@@ -37,7 +37,10 @@ body {
   
   .nav-item a {
     display: flex;
-    gap: 0.5rem
+    gap: 0.5rem;
+    font-size: 20px;
+    align-items:center ;
+    
   }
   
   .nav-item a:hover {
@@ -260,7 +263,7 @@ body {
     left: 23px;
   }
   
-  .section .text-wrapper-2 {
+  .section .text-wrapper-2 a{
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -272,6 +275,7 @@ body {
     line-height: var(--body-small-line-height);
     white-space: nowrap;
     font-style: var(--body-small-font-style);
+    text-decoration: none;
   }
   
   .section .image-placeholder-2 {

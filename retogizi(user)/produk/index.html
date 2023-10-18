@@ -29,38 +29,107 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav gap-2">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/mainpage/index.html">
+              <a class="nav-link" aria-current="page" href="/retogizi(user)/mainpage/index.html">
                 <img src="./img/beranda.svg" alt="">Beranda</a>
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/artikel/index.html">
+              <a class="nav-link" href="/retogizi(user)/artikel/index.html">
                 <img src="./img/artikel.svg" alt="">Artikel</a>
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/kosnsutasi/index.html">
+              <a class="nav-link" href="/retogizi(user)/kosnsutasi/index.html">
                 <img src="./img/tanya-dokter.svg" alt="">Tanya Dokter</a>
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/katering/index.html">
+              <a class="nav-link" href="/retogizi(user)/katering/index.html">
                 <img src="./img/katering.svg" alt="">Katering</a>
             </li>
   
-            <div class="login-register d-flex">
-              <li class="nav-item">
-                <a class="masuk nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/login s/index.html">Masuk</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/login/index.html">Daftar Sekarang</a>
-              </li>
+            <div class="user-card">
+              <img class="user-thumb" src="img/User Thumb.png"></img>
+
+              <div class="details"><a class="category" href="/retogizi(user)/akun(user)/index.html">Jundulloh</a></div>
+            </div>
             </div>
           </ul>
         </div>
       </div>
     </nav>
+
+  
+    <div class="produk-user">
+      <div class="div">
+        <img class="image-placeholder" src="img/kat1.png" />
+        <!-- <div class="product-thumbnails">
+          <div class="img"><img class="rectangle" src="img/kat1.png" /></div>
+          <div class="rectangle-wrapper"><img class="rectangle" src="img/rectangle-5.png" /></div>
+          <div class="img-wrapper"><img class="rectangle" src="img/rectangle-4.png" /></div>
+          <div class="img-2"><img class="rectangle-2" src="img/rectangle-6.png" /></div>
+          <div class="langfjaell-office-wrapper">
+            <img
+              class="langfjaell-office"
+              src="img/langfjaell-office-chair-with-armrests-gunnared-beige-black-0461403-pe607530-s5-1.png"
+            />
+          </div>
+        </div> -->
+        <button type="button" class="btn btn-secondary" id="chatButton">Pesan Sekarang</button>
+        <div class="qty">
+          <img class="img-3" src="img/minus.png" />
+          <div class="text-wrapper-2">1</div>
+          <img class="img-3" src="img/plus.png" />
+        </div>
+        <p class="p">
+          Ayam Teriyaki lezat kami dibuat dari daging ayam empuk, dilumuri saus teriyaki manis-gurih, sajian nikmat
+          untuk kenikmatan Jepang dalam setiap gigitan!
+        </p>
+        <div class="ratings">
+          <div class="stars">
+            <img class="star" src="img/star-1.svg" />
+            <img class="star-2" src="img/star-2.svg" />
+            <img class="star-3" src="img/star-3.svg" />
+            <img class="star-4" src="img/star-4.svg" />
+            <div class="overlap-group"><img class="subtract" src="img/subtract.svg" /></div>
+          </div>
+          <p class="element"><span class="span">4.6 / 5.0</span> <span class="text-wrapper-3"> (556)</span></p>
+        </div>
+        <div class="text-wrapper-4">Rp. 15.000</div>
+        <div class="text-wrapper-5">Ayam Teriyaki</div>
+        <a href="/retogizi(user)/katering/index.html"><img class="back" src="img/back.png" /></a>
+        
+        <!-- <div class="arrows">
+          <img class="img-4" src="img/chevron-left.svg" /> <img class="img-4" src="img/chevron-right.svg" />
+        </div> -->
+        <!-- <div class="preview">
+          <div class="text-wrapper-12">/ 06</div>
+          <div class="text-wrapper-13">01</div>
+        </div> -->
+      </div>
+    </div>
+
+    <script>
+      // Fungsi untuk mengarahkan pengguna ke tautan WhatsApp.
+      function openWhatsAppChat() {
+        // Ganti nomor WhatsApp dan pesan yang sesuai.
+        const phoneNumber = '6285714751523'; // Gantilah dengan nomor WhatsApp yang diinginkan.
+        const message = 'Halo, saya ingin chat dengan Anda.'; // Gantilah dengan pesan yang diinginkan.
+    
+        // Buat tautan WhatsApp dengan nomor dan pesan.
+        const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    
+        // Buka tautan WhatsApp di jendela baru.
+        window.open(whatsappLink, '_blank');
+      }
+    
+      // Tambahkan event listener untuk tombol "Chat Sekarang".
+      const chatButton = document.getElementById('chatButton');
+      chatButton.addEventListener('click', openWhatsAppChat);
+    </script>
+  </body>
+</html>
+
 
      
 

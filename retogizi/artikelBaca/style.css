@@ -30,8 +30,11 @@ nav ul {
 }
 
 .nav-item a {
-    display: flex;
-    gap: 0.5rem
+  display: flex;
+  gap: 0.5rem;
+  font-size: 20px;
+  align-items:center ;
+  
 }
 
 .nav-item a:hover {
@@ -204,7 +207,7 @@ nav ul {
     box-shadow: 0px 10px 10px #0000001a;
   }
   
-  .baca-artikel-userl .text-wrapper-8 {
+  .baca-artikel-userl .text-wrapper-8 a {
     position: absolute;
     width: 146px;
     top: 11px;
@@ -215,6 +218,8 @@ nav ul {
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    text-decoration:none ;
+    
   }
   
   .baca-artikel-userl .article-side-card {

@@ -37,9 +37,11 @@ nav ul {
 
 .nav-item a {
   display: flex;
-  gap: 0.5rem
+  gap: 0.5rem;
+  font-size: 20px;
+  align-items:center ;
+  
 }
-
 .nav-item a:hover {
   font-weight: 700;
   color: #ED254E;
@@ -57,26 +59,34 @@ nav ul {
 .login-register {
   gap: 1.3rem;
 }
-
-.login-register .nav-item a.nav-link {
-  border: 1px #000 solid;
-  border-radius: 50px;
-  padding: 0.5rem 1.5rem;
-  font-weight: 700;
+.navbar .user-card {
+  display: flex;
+  width: 168px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
 }
 
-.login-register .nav-item a.nav-link:hover {
-  background-color: #ED254E;
-  color: #fff;
-  border-radius: 50px;
-  border: 1px #fff solid;
+.navbar .user-thumb {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+ 
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.login-register .nav-item a.nav-link:active {
-  background-color: #ED254E;
-  color: #fff;
-  border-radius: 50px;
-  border: 1px #fff solid;
+.navbar .details a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #000;
 }
 .dokter-user {
     background-color: #011936;

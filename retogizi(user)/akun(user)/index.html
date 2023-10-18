@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <title>RetoGizi</title>
   <body>
+       
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
       <div class="container-fluid">
         <div class="navbar-brand">
@@ -24,93 +26,140 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav gap-2">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/mainpage/index.html">
+              <a class="nav-link" aria-current="page" href="/retogizi(user)/mainpage/index.html">
                 <img src="./img/beranda.svg" alt="">Beranda</a>
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/artikel/index.html">
+              <a class="nav-link" href="/retogizi(user)/artikel/index.html">
                 <img src="./img/artikel.svg" alt="">Artikel</a>
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/kosnsutasi/index.html">
+              <a class="nav-link" href="/retogizi(user)/kosnsutasi/index.html">
                 <img src="./img/tanya-dokter.svg" alt="">Tanya Dokter</a>
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/retogizi/katering/index.html">
+              <a class="nav-link" href="/retogizi(user)/katering/index.html">
                 <img src="./img/katering.svg" alt="">Katering</a>
             </li>
   
-            <div class="login-register d-flex">
-              <li class="nav-item">
-                <a class="masuk nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/login s/index.html">Masuk</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="file:///C:/Users/User/Desktop/Macro_Project/login/index.html">Daftar Sekarang</a>
-              </li>
+            <div class="user-card">
+              <img class="user-thumb" src="img/User Thumb.png"></img>
+
+              <div class="details"><a class="category" href="/retogizi(user)(user)/akun(user)/index.html">Jundulloh</a></div>
+            </div>
             </div>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="pengaturan-akun">
+  
      
-      <div class="section">
-        <div class="content">
-          <div class="right-column">
-            <div class="box">
-              <div class="top"><div class="description-top">Foto Profil</div></div>
-              <div class="frame">
-                <div class="frame-2">
-                  <img class="user-thumb-2" src="img/User Thumb.png"></img>
-                  <div class="frame-3">
-                    <button class=" btn btn-outline-primary">
-                      <img class="icon-jam-icons" src="img/plus.svg" />
-                      <div class="text-container"><div class="button-text">Unggah Foto</div></div>
-                    </button>
-                    <div class="text-wrapper-5">Hapus</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="top"><div class="description-top">Ubah Detail Pengguna</div></div>
-              <div class="field">
-                <div class="fields-group">
-                    <div>
-                        <label for="name" class="form-label">Nama Depan</label>
-                        <input type="text" class="form-control">
+    
+      <div class="pengaturan-akun">
+        <div class="section">
+            <div class="content">
+                <div class="right-column">
+                    <div class="box">
+                        <div class="top"><div class="description-top">Foto Profil</div></div>
+                        <div class="frame">
+                            <div class="frame-2">
+                              <img class="user-thumb-2" id="profileImage" src="img/User Thumb.png">
+
+                                <div class="frame-3">
+                                    <button class="btn btn-outline-primary" id="ubahFotoButton">
+                                        <img class="icon-jam-icons" src="img/plus.svg" />
+                                        <div class="text-container">
+                                            <div class="button-text">Ubah Foto</div>
+                                        </div>
+                                    </button>
+                                    <button class="text-wrapper-5" id="hapusFotoButton">Hapus</button>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="file" id="imageInput" accept="image/*" style="display: none;">
                     </div>
-                  <div>
-                       <label for="name" class="form-label">Nama Depan</label>
-                       <input type="text" class="form-control">
-                  </div>                
-                  </div>
+                    <div class="box">
+                        <div class="top"><div class="description-top">Ubah Detail Pengguna</div></div>
+                        <div class="field">
+                            <div class="fields-group">
+                                <div>
+                                    <label for="firstName" class="form-label">Nama Depan</label>
+                                    <input type="text" id="firstName" class="form-control">
+                                </div>
+                                <div>
+                                    <label for="lastName" class="form-label">Nama Belakang</label>
+                                    <input type="text" id="lastName" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-field-2">
+                            <form>
+                                <div class="mb-3 ms-4">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-xl-5 ms-4">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password">
+                                    <div id="emailHelp" class="form-text">Minimal Berisi 6 digit dengan karakter unik</div>
+                                </div>
+                                <button type="button" id="konfirmasiButton" class="btn btn-primary position-absolute bottom-0 end-0 me-5 mt-5">Konfirmasi</button>
+
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-field-2">
-                    <form>
-                        <div class="mb-3 ms-4">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          
-                        </div>
-                        <div class="mb-xl-5 ms-4">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                       
-                        <button type="submit" class="btn btn-primary position-absolute bottom-0 end-0 me-5 mt-5">Konfirmasi</button>
-                      </form>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
+
+    
+    </html>
+    
+    <script>
+      // Function to handle changing the user's profile picture
+      function changeProfilePicture() {
+        const imageInput = document.getElementById("imageInput");
+        const profileImage = document.getElementById("profileImage");
+        const userThumb = document.querySelector(".user-thumb");
+        const userThumb2 = document.querySelector(".user-thumb-2");
+    
+        // Check if a file was selected
+        if (imageInput.files.length > 0) {
+          const selectedFile = imageInput.files[0];
+          const imageUrl = URL.createObjectURL(selectedFile);
+    
+          // Update the profile images with the selected file
+          profileImage.src = imageUrl;
+          userThumb.src = imageUrl;
+          userThumb2.src = imageUrl;
+        }
+      }
+    
+      // Function to handle removing the user's profile picture
+      function removeProfilePicture() {
+        const profileImage = document.getElementById("profileImage");
+        const userThumb = document.querySelector(".user-thumb");
+        const userThumb2 = document.querySelector(".user-thumb-2");
+    
+        // Remove the profile images by setting the source to an empty string
+        profileImage.src = "";
+        userThumb.src = "";
+        userThumb2.src = "";
+      }
+    
+      // Add event listeners to the buttons
+      document.getElementById("ubahFotoButton").addEventListener("click", function () {
+        // Trigger the file input click event when "Ubah Foto" is clicked
+        document.getElementById("imageInput").click();
+      });
+    
+      document.getElementById("hapusFotoButton").addEventListener("click", removeProfilePicture);
+      document.getElementById("konfirmasiButton").addEventListener("click", changeProfilePicture);
+    </script>
+    
   </body>
 </html>

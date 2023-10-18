@@ -37,7 +37,10 @@ body {
   
   .nav-item a {
     display: flex;
-    gap: 0.5rem
+    gap: 0.5rem;
+    font-size: 20px;
+    align-items:center ;
+    
   }
   
   .nav-item a:hover {
