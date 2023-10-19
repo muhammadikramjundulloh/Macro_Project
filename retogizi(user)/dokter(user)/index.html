@@ -121,20 +121,20 @@
         
       </div>
       <script>
-        // Fungsi untuk mengarahkan pengguna ke tautan WhatsApp.
+       
         function openWhatsAppChat() {
-          // Ganti nomor WhatsApp dan pesan yang sesuai.
-          const phoneNumber = '6285819098540'; // Gantilah dengan nomor WhatsApp yang diinginkan.
-          const message = 'Halo, saya ingin chat dengan Anda.'; // Gantilah dengan pesan yang diinginkan.
+         
+          const phoneNumber = '6285819098540'; 
+          const message = 'Halo, saya ingin chat dengan Anda.'; 
       
-          // Buat tautan WhatsApp dengan nomor dan pesan.
+          
           const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
       
-          // Buka tautan WhatsApp di jendela baru.
+         
           window.open(whatsappLink, '_blank');
         }
       
-        // Tambahkan event listener untuk tombol "Chat Sekarang".
+       
         const chatButton = document.getElementById('chatButton');
         chatButton.addEventListener('click', openWhatsAppChat);
       </script>

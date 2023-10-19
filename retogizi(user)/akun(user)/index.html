@@ -120,40 +120,40 @@
     </html>
     
     <script>
-      // Function to handle changing the user's profile picture
+    
       function changeProfilePicture() {
         const imageInput = document.getElementById("imageInput");
         const profileImage = document.getElementById("profileImage");
         const userThumb = document.querySelector(".user-thumb");
         const userThumb2 = document.querySelector(".user-thumb-2");
     
-        // Check if a file was selected
+        
         if (imageInput.files.length > 0) {
           const selectedFile = imageInput.files[0];
           const imageUrl = URL.createObjectURL(selectedFile);
     
-          // Update the profile images with the selected file
+          
           profileImage.src = imageUrl;
           userThumb.src = imageUrl;
           userThumb2.src = imageUrl;
         }
       }
     
-      // Function to handle removing the user's profile picture
+      
       function removeProfilePicture() {
         const profileImage = document.getElementById("profileImage");
         const userThumb = document.querySelector(".user-thumb");
         const userThumb2 = document.querySelector(".user-thumb-2");
     
-        // Remove the profile images by setting the source to an empty string
+        
         profileImage.src = "";
         userThumb.src = "";
         userThumb2.src = "";
       }
     
-      // Add event listeners to the buttons
+      
       document.getElementById("ubahFotoButton").addEventListener("click", function () {
-        // Trigger the file input click event when "Ubah Foto" is clicked
+        
         document.getElementById("imageInput").click();
       });
     

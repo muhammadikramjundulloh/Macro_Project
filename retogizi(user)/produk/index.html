@@ -63,18 +63,7 @@
     <div class="produk-user">
       <div class="div">
         <img class="image-placeholder" src="img/kat1.png" />
-        <!-- <div class="product-thumbnails">
-          <div class="img"><img class="rectangle" src="img/kat1.png" /></div>
-          <div class="rectangle-wrapper"><img class="rectangle" src="img/rectangle-5.png" /></div>
-          <div class="img-wrapper"><img class="rectangle" src="img/rectangle-4.png" /></div>
-          <div class="img-2"><img class="rectangle-2" src="img/rectangle-6.png" /></div>
-          <div class="langfjaell-office-wrapper">
-            <img
-              class="langfjaell-office"
-              src="img/langfjaell-office-chair-with-armrests-gunnared-beige-black-0461403-pe607530-s5-1.png"
-            />
-          </div>
-        </div> -->
+       
         <button type="button" class="btn btn-secondary" id="chatButton">Pesan Sekarang</button>
         <div class="qty">
           <img class="img-3" src="img/minus.png" />
@@ -110,20 +99,20 @@
     </div>
 
     <script>
-      // Fungsi untuk mengarahkan pengguna ke tautan WhatsApp.
+      
       function openWhatsAppChat() {
-        // Ganti nomor WhatsApp dan pesan yang sesuai.
-        const phoneNumber = '6285714751523'; // Gantilah dengan nomor WhatsApp yang diinginkan.
-        const message = 'Halo, saya ingin chat dengan Anda.'; // Gantilah dengan pesan yang diinginkan.
+       
+        const phoneNumber = '6285714751523'; 
+        const message = 'Halo, saya ingin chat dengan Anda.';
     
-        // Buat tautan WhatsApp dengan nomor dan pesan.
+        
         const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     
-        // Buka tautan WhatsApp di jendela baru.
+       
         window.open(whatsappLink, '_blank');
       }
     
-      // Tambahkan event listener untuk tombol "Chat Sekarang".
+     
       const chatButton = document.getElementById('chatButton');
       chatButton.addEventListener('click', openWhatsAppChat);
     </script>
